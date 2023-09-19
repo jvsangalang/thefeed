@@ -58,7 +58,7 @@ section p {
 
 section img {
     border: 1px rgb(75, 39, 39) solid;
-    padding: 3px;
+    padding: 100px;
     border-radius: 25px;
     background-color: rgb(116, 76, 76);
 }
