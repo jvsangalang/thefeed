@@ -6,7 +6,7 @@ body {
     margin: auto;
     font-family: 'PT Sans', sans-serif;
 }
-index body {
+#splashbackground {
     background-color: rgb(243, 235, 235);
 } 
 
@@ -14,7 +14,7 @@ header {
     background-color: rgb(243, 235, 235);
     width: 300px;
     position: fixed;
-    top: 25px;
+    top: 50px;
     left: 25px;
     font-family: 'DM Serif Display', serif;
     border: 1px rgb(243, 235, 235) solid;
@@ -26,12 +26,16 @@ nav {
     background-color: rgb(206, 199, 199);
     width: 300px;
     position: fixed;
-    top: 150px;
+    top: 300px;
     left: 25px;
     font-family: 'DM Serif Display', serif;
     text-align: center;
     border: 1px rgb(243, 235, 235) solid;
     border-radius: 25px;
+    color:rgb(116, 76, 76);
+}
+header img{
+    width: 300px;
 }
 #splashpage {
     margin-top: 225px;
@@ -58,7 +62,7 @@ section p {
 
 section img {
     border: 1px rgb(75, 39, 39) solid;
-    padding: 100px;
+    padding: 3px;
     border-radius: 25px;
     background-color: rgb(116, 76, 76);
 }
