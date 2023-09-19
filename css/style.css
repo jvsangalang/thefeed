@@ -23,23 +23,33 @@ header {
 }
 
 nav {
-    background-color: rgb(206, 199, 199);
     width: 300px;
     position: fixed;
     top: 300px;
     left: 25px;
     font-family: 'DM Serif Display', serif;
-    text-align: left;
-    border: 1px rgb(243, 235, 235) solid;
+    text-align: center;
+    border: 3px rgb(243, 235, 235) solid;
     border-radius: 25px;
-    color:rgb(116, 76, 76);
+    color:rgb(243, 235, 235);
+    font-size: 20px;
+}
+nav a {
+    color:rgb(243, 235, 235);
 }
 header img{
     width: 300px;
 }
 #splashpage {
-    margin-top: 225px;
+    margin-top: 325px;
     text-align: center;
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+#splashpage:hover {
+    border: 1px rgb(116, 76, 76) solid;
+    border-radius: 25px;
 }
 main {
     background-color: rgb(75, 39, 39);
@@ -88,12 +98,24 @@ footer p {
 }
 
 footer {
-    background-color: rgb(243, 235, 235);
     width: 300px;
     position: fixed;
     left: 25px;
     bottom: 25px;
-    border: 1px rgb(243, 235, 235) solid;
+    color:rgb(243, 235, 235);
+    text-align: left;
+    border:rgb(243, 235, 235) 3px solid;
     border-radius: 25px;
 }
 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ .column {
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
