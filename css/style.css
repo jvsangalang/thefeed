@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=PT+Sans&display=swap');
+
+body {
+    background-color: rgb(75, 39, 39);
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'PT Sans', sans-serif;
+}
+index body {
+    background-color: rgb(243, 235, 235);
+} 
+
+header {
+    background-color: rgb(243, 235, 235);
+    width: 300px;
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    font-family: 'DM Serif Display', serif;
+    border: 1px rgb(243, 235, 235) solid;
+    border-radius: 25px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(206, 199, 199);
+    width: 300px;
+    position: fixed;
+    top: 150px;
+    left: 25px;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    border: 1px rgb(243, 235, 235) solid;
+    border-radius: 25px;
+}
+#splashpage {
+    margin-top: 225px;
+    text-align: center;
+}
+main {
+    background-color: rgb(75, 39, 39);
+    width: 600px;
+    margin-left: 500px;
+}
+
+section {
+    border: 3px rgb(243, 235, 235) solid;
+    margin-top: 25px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(243, 235, 235);
+}
+
+section p {
+    color: rgb(116, 76, 76);
+}
+
+section img {
+    border: 1px rgb(75, 39, 39) solid;
+    padding: 3px;
+    border-radius: 25px;
+    background-color: rgb(116, 76, 76);
+}
+
+section img:hover {
+    background-color: rgb(185, 45, 45);
+}
+
+section video {
+    border: 1px rgb(75, 39, 39) solid;
+    padding: 3px;
+    border-radius: 25px;
+    background-color: rgb(75, 39, 39);
+}
+
+section video:hover {
+    background-color: rgb(185, 45, 45);
+}
+
+footer p {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(243, 235, 235);
+    width: 300px;
+    position: fixed;
+    left: 25px;
+    bottom: 25px;
+    border: 1px rgb(243, 235, 235) solid;
+    border-radius: 25px;
+}
+
