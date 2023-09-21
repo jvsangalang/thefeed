@@ -20,6 +20,7 @@ header {
     border: 1px rgb(243, 235, 235) solid;
     border-radius: 25px;
     text-align: center;
+    height: 30%;
 }
 
 nav {
@@ -33,6 +34,8 @@ nav {
     border-radius: 25px;
     color:rgb(243, 235, 235);
     font-size: 20px;
+    height: 35%;
+    overflow-y: scroll;
 }
 nav a {
     color:rgb(243, 235, 235);
@@ -41,7 +44,7 @@ header img{
     width: 300px;
 }
 #splashpage {
-    margin-top: 325px;
+    margin-top: 15%;
     text-align: center;
     padding-left: 50px;
     padding-right:50px;
@@ -64,6 +67,15 @@ section {
     text-align: center;
     border-radius: 25px;
     background-color: rgb(243, 235, 235);
+}
+
+#footer {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    border: 3px rgb(243, 235, 235) solid;
+    border-radius: 25px;
+    color:rgb(243, 235, 235);
+    font-size: 20px;
 }
 
 section p {
@@ -106,16 +118,16 @@ footer {
     text-align: left;
     border:rgb(243, 235, 235) 3px solid;
     border-radius: 25px;
+    height: 15%;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+column1 {
+    float: left;
+    margin: 0px;
+    width: 400px;
 
- .column {
-    float: right;
-    width: 50%;
-    padding: 10px;
-}
+
+column2 {
+    float: left;
+    margin: 0px;
+    width: 400px;
