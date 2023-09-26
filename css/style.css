@@ -40,7 +40,7 @@ nav {
 
 nav h4:hover {
     background-color:rgb(243, 235, 235);
-    color:rgb(185, 45, 45)
+    color:rgb(185, 45, 45);
 }
 
 nav a {
@@ -73,6 +73,25 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     position: relative;
+}
+
+nav::-webkit-scrollbar {
+    border-radius: 10px;
+    height: 
+}
+
+nav::-webkit-scrollbar-thumb {
+    background-color: rgb(117, 28, 28); 
+    border-radius: 10px;
+}
+
+nav::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(185, 45, 45);
+    border-radius: 10px;
+}
+
+nav::-webkit-scrollbar-track-piece {
+    border-radius: 10px;
 }
 
 #qtrak {
@@ -109,7 +128,7 @@ section img {
 }
 
 section img:hover {
-    background-color: rgb(185, 45, 45);
+    background-color: rgb(241, 56, 56);
 }
 
 section video {
@@ -120,7 +139,7 @@ section video {
 }
 
 section video:hover {
-    background-color: rgb(185, 45, 45);
+    background-color: rgb(241, 56, 56);
 }
 
 footer p {
